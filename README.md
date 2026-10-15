@@ -1,56 +1,21 @@
-# Supplementary scoring and agreement data
+# Textile wearable strain sensors review — current data
 
-Study-level scoring files supporting the systematic review *Textile wearable
-strain sensors for human monitoring: a systematic critical review of
-deployment readiness, validation, and standardization*.
+## Current 41-study synthesis
 
-Two reviewers scored every included study using predefined operational
-rubrics. Agreement was quantified using weighted Cohen's kappa, and residual
-differences were resolved by consensus against the full texts.
+[Download the approved data and analysis package](Review_Data_41_20261014.zip) (14 October 2026 consolidation).
 
-## Files
+The ZIP contains the clean supplementary workbook, Supplementary Tables S1–S13 PDF, original independent ratings, adjudications, reporting definitions, analysis code, quantitative figures and file checksums. Extract it and follow `current_41/README.md` for reproduction instructions. No copyrighted article full texts or private correspondence are included.
 
-| File | Content |
-|---|---|
-| `Azza_Figure5_scoring.xlsx` | Reviewer A ratings for the Figure 5 validation-depth and deployment-readiness axes, with evidence and page numbers |
-| `Pooja_Figure5_scoring.xlsx` | Reviewer B ratings for the Figure 5 axes, with evidence and page numbers |
-| `Azza_Figure6_scoring.xlsx` | Reviewer A scores for the nine Figure 6 reporting and validation items, with item-level evidence |
-| `Pooja_Figure6_scoring.xlsx` | Reviewer B scores for the nine Figure 6 items, with item-level evidence and page numbers |
-| `Figure6_final_consensus.xlsx` | Final agreed Figure 6 score matrix for the 29 included studies |
-| `Final_consensus_and_kappa_29_studies.xlsx` | Consolidated rubrics, consensus assignments, score summaries, kappa results and disagreement-resolution log |
-| `kappa_summary.md` | Inter-rater agreement statistics and sensitivity analysis |
-| `calculate_kappa.py` | Reproducible calculation of exact agreement and unweighted, linear- and quadratic-weighted Cohen's kappa |
-| `requirements.txt` | Python dependencies required by the calculation script |
+- Current synthesis: **41 studies**.
+- Original independent readiness/reporting agreement: **39 paired studies**.
+- Original eligibility agreement: **42 candidates**.
 
-## Scoring frameworks
+All 82 readiness ratings and 369 reporting scores have reviewer approval. The methodological-reporting matrix contains 114 explicitly confirmed decisions and 542 retained Reviewer 2 assessments, not a complete paired independent risk-of-bias assessment. Original ratings remain separate from adjudicated scores.
 
-- **Figure 5 axes:** validation depth (1 = laboratory proof of concept to 5 =
-  near-deployment validation) and deployment readiness (1 = material/sensing
-  element to 5 = advanced prototype). Operational definitions are provided in
-  the `Scoring rubric` sheet of each Figure 5 workbook.
-- **Figure 6 items:** F1 architecture/integration route; F2
-  material/substrate composition; E1 working strain range; E2 gauge factor and
-  strain regime; E3 signal-quality descriptors; E4 dynamic/durability
-  descriptors; R1 environmental robustness; V1 on-body/garment evidence; and
-  V2 comparator/structured validation. Items are scored 2 (clearly and
-  quantitatively reported), 1 (partially or qualitatively reported), 0
-  (applicable but not reported), or NA (genuinely not applicable).
+The archive preserves unresolved extraction/source conflicts and screening-verification labels. Reconciled PRISMA arithmetic does not establish independent verification of every exclusion. Categories and trends describe the selected sample, not field-wide prevalence or growth. See the archive README and supplementary workbook for interpretation limits.
 
-## Reproducing the agreement analysis
+Archive SHA-256: `c934e437da7c7c68f769799ab8b9276e7d38aa0f060429509e1710b904704de6`
 
-With Python 3 installed, run:
+## Earlier 29-study version
 
-```bash
-python -m pip install -r requirements.txt
-python calculate_kappa.py
-```
-
-The script aligns reviewers by study and year, excludes Fan et al. (2024) from
-the final 29-study dataset, excludes Figure 6 NA cells pairwise, and obtains
-95% confidence intervals by resampling studies with replacement (10,000
-bootstrap samples; fixed random seed 2026).
-
-## Data-use note
-
-This repository contains reviewer-generated extraction and scoring data only.
-Copyrighted full-text articles used for verification are not redistributed.
+All original repository files are preserved without content changes in [legacy_29/](legacy_29/). These files belong to the superseded 29-study version and must not be used to reproduce the current synthesis or the later 39-study paired agreement. Git history is retained.
