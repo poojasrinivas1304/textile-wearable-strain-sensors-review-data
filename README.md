@@ -16,6 +16,6 @@ The archive preserves unresolved extraction/source conflicts and screening-verif
 
 Archive SHA-256: `c934e437da7c7c68f769799ab8b9276e7d38aa0f060429509e1710b904704de6`
 
-## Earlier 29-study version
+## Version history
 
-All original repository files are preserved without content changes in [legacy_29/](legacy_29/). These files belong to the superseded 29-study version and must not be used to reproduce the current synthesis or the later 39-study paired agreement. Git history is retained.
+Superseded 29-study files have been removed from the current repository view. They remain recoverable through Git history. Use only the 41-study package above for the current synthesis.
