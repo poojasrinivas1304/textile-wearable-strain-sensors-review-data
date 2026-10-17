@@ -1,21 +1,9 @@
-# Textile wearable strain sensors review — current data
+# Textile wearable strain sensors review data
 
-## Current 41-study synthesis
+Study-level data and reproducible analyses supporting the 41-study review.
 
-[Download the current data and analysis package](Review_Data_41_20261015.zip) (15 October 2026 presentation update).
+[Download the current data package](Review_Data_41_20261017.zip) and extract it. The archive contains the final supplementary workbook, supplementary PDF and LaTeX source, analysis inputs, code and quantitative figures. See `current_41/README.md` inside the archive for reproduction instructions.
 
-This release synchronises the supplementary workbook and PDF, PRISMA graphic and quantitative Figures 2, 4, 5 and 6 with the manuscript. It preserves the 41-study set, agreed scores, extraction data and original independent ratings. Extract the ZIP and follow `current_41/README.md` for reproduction instructions. The package contains no copyrighted article full texts, private correspondence or raw reviewer workbooks.
+The current synthesis includes 41 studies. Original independent readiness/reporting agreement uses 39 paired studies; original eligibility agreement uses 42 candidates. Original ratings and subsequent verification/adjudication records remain distinguishable in the workbook. The distributions describe the selected evidence set.
 
-- Current synthesis: **41 studies**.
-- Original independent readiness/reporting agreement: **39 paired studies**.
-- Original eligibility agreement: **42 candidates**.
-
-All 82 readiness ratings and 369 reporting scores have reviewer approval. The methodological-reporting matrix contains 114 explicitly confirmed decisions and 542 retained Reviewer 2 assessments, not a complete paired independent risk-of-bias assessment. Original ratings remain separate from adjudicated scores.
-
-The archive preserves unresolved extraction/source conflicts and screening-verification labels. Reconciled PRISMA arithmetic does not establish independent verification of every exclusion. Categories and trends describe the selected sample, not field-wide prevalence or growth. See the archive README and supplementary workbook for interpretation limits.
-
-The internal `SHA256SUMS.txt` lists the release file checksums. The root `SHA256SUMS.txt` records the ZIP checksum.
-
-## Version history
-
-Superseded releases remain recoverable through Git history. Use only the current package above for this synthesis. No additional data/code reuse licence is granted by this update; the coauthors should select the applicable reuse terms separately.
+`SHA256SUMS.txt` records the archive checksum. Superseded versions remain available through Git history.
