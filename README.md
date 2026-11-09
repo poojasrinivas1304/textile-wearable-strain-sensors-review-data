@@ -1,9 +1,11 @@
 # Textile wearable strain sensors review data
 
-Study-level data and reproducible analyses supporting the 41-study review.
+Current version: **9 November 2026**. This is the latest 41-study data package.
 
-[Download the current data package](Review_Data_41_20261017.zip) and extract it. The archive contains the final supplementary workbook, supplementary PDF and LaTeX source, analysis inputs, code and quantitative figures. See `current_41/README.md` inside the archive for reproduction instructions.
+[Download the current data package](Review_Data_41_20261109.zip) and extract `current_41/README.md` for contents and reproduction instructions.
 
-The current synthesis includes 41 studies. Original independent readiness/reporting agreement uses 39 paired studies; original eligibility agreement uses 42 candidates. Original ratings and subsequent verification/adjudication records remain distinguishable in the workbook. The distributions describe the selected evidence set.
+The package includes the final supplementary workbook, E3/V1 consensus record, manuscript and supplement, approved figures, current analysis exports, plotting code and original independent-rating agreement code. All 82 E3/V1 consensus ratings are complete. Methodological verification totals are 181 confirmed/verified and 475 retained Reviewer 2 ratings across 656 entries.
 
-`SHA256SUMS.txt` records the archive checksum. Superseded versions remain available through Git history.
+Only this current package is listed here. Original reviewer ratings and subsequent consensus remain distinguishable within it. Previous repository commits remain in Git history.
+
+`SHA256SUMS.txt` records the current package checksum. Copyrighted source articles and private correspondence are excluded.
