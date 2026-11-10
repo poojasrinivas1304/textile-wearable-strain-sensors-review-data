@@ -11,3 +11,5 @@ Only this current package is listed here. Original reviewer ratings and subseque
 `SHA256SUMS.txt` records the current package checksum. Copyrighted source articles and private correspondence are excluded.
 
 The current manuscript is titled Human validation of textile strain sensors for wearable monitoring. The package distinguishes original 39-study agreement statistics from final 41-study consensus and records the 793 exclusions as final reconciled decisions rather than verified independent initial agreement.
+
+The latest submission-format files include the 150-word abstract, retrospective OSF registration (https://doi.org/10.17605/OSF.IO/8YA56), PRISMA reporting records and Supplementary Data 1–2 names. Scientific scores, data exports and figures are unchanged.
